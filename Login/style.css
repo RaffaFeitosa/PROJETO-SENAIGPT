@@ -1,12 +1,26 @@
-.titulo {
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-    font-size: 76px;
+* {
+
+    padding: 0px; /* Margem interna */
+    margin: 0px; /* Marge externa */
+    box-sizing: border-box; /* Muda a estrutura de espaçamentos */
+    font-family:"inter";
 
 }
 
+.titulo {
+
+    font-size: 76px;
+    font-family: "inter";
+
+}
 .robo-image {
 
-    background-color: red;
+    background-image: url("../assets/imgs/Rectangle\ 2x.png");
+    background-size: cover;
+    background-position: 0px -100px;
+
     width: 50vw; /* 50% da tela horizontal */
     height: 100vh; /* 100% da tela vertical */
 
@@ -20,7 +34,6 @@
 
 .login-container {
 
-    background-color: darkgreen;
     width: 50vw;
     height: 100vh;
 
@@ -30,6 +43,21 @@
     align-items: center; /* Centralizar Horizontalmente */
     justify-content: center; /* Centralizar Verticalmente */
 
+}
 
+.classe { /* Com ponto antes */
+    
+    }
+
+#id { /* com hashtag antes */
+    
+    }
+
+img { /* Tags, sem nenhum prefixo */
+
+}
+
+.login-container img {
+    height: 60px;
 
 }
