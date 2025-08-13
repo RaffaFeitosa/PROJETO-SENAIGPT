@@ -12,7 +12,8 @@
 .titulo {
 
     font-size: 76px;
-    font-family: "inter";
+    font-weight: 400;
+    margin-bottom: 16px;
 
 }
 .robo-image {
@@ -44,7 +45,7 @@
     justify-content: center; /* Centralizar Verticalmente */
 
 }
-
+.
 .classe { /* Com ponto antes */
     
     }
@@ -59,5 +60,28 @@ img { /* Tags, sem nenhum prefixo */
 
 .login-container img {
     height: 60px;
+
+}
+
+.inpt {
+
+    padding: 18px;
+    background-color: #F7F9FB;
+    width: 377px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+
+}
+
+.button {
+
+    padding: 18px;
+    background-color: #1c1c1c;
+    width: 377px;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
 
 }
