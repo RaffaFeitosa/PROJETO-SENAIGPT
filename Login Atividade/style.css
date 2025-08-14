@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .divisao{
      display: flex
+}
+.tudo{display: flex
+     }
+.roboimagem {
+     background-image:url("../assets/imgs/sss.webp");
+     height: 100vh;
+     width: 50vw;
+     background-size:cover;
+     background-position: 50%;
+}
+img{height: 60px;
+}
+.login{
+     font-size: 76px;
+     font-weight: 400;
+     margin-bottom: 16px;
+}
+.logogpt
+{
+width: 50vw;
+height: 70vh;
+display: flex; 
+flex-direction: column;
+align-items: center; 
+justify-content: center;
+}
+.inpt{
+     padding: 18px;
+     background-color: #F7F9FB;
+     width: 377px;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     margin-bottom: 16px;
+}
+.botao{
+padding: 18px;
+background-color: #1c1c1c;
+width: 377px;
+border: none;
+border-radius: 12px;
+color: #ffffff;
+cursor: pointer;
+}
+* {
+padding:  0px;
+margin: 0px; 
+box-sizing: border-box; 
+font-family:"inter";
 }
