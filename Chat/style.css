@@ -170,22 +170,29 @@ background-color: #f7f9fb;
 
 
 }
-.inpt {
 
-    background-color: #f7f9fb;
-    margin-top: auto
-    border: none;
-    border-radius: 12px;
-
-}
 .input-container{
-    background-color: #f7f9fb;
-    width: 800px;
-    height: 50px;
-    background-color: #f7f9fb;
-    margin-top: 110px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #e6e6e6;
+    border-radius: 16px;
+}
+
+.input-container i {
+    margin-right: 10px;
+}
+
+.input-container input {
+    background-color: transparent;
     border: none;
-    border-radius: 12px;
+    width: 400px;
+    outline: none;
+}
 
-
+.send-button {
+    color: #9fa0a2;
+    margin-right: 0px !important;
 }
