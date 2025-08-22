@@ -45,9 +45,11 @@
     justify-content: center; /* Centralizar Verticalmente */
 
 }
-.classe {}/* Com ponto antes */
-#id { } /* com hashtag antes */
-img {} /* Tags, sem nenhum prefixo */
+
+.classe /* Com ponto antes */
+#id  /* com hashtag antes */
+img /* Tags, sem nenhum prefixo */
+
 .login-container img {
     height: 60px;
 

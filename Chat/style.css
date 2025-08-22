@@ -33,7 +33,7 @@
 
     height: 100vh;
     width: 80vw;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     align-items: center;
 
@@ -119,12 +119,73 @@
     flex-direction: column;
 }
 .logosenai{
-    margin-top: 260px
+    margin-top: 200px
 }
 .disposicao1{
+    display: flex; 
+    
+}
+.conversa i{
+ margin-right: 12px;
+ font-size: 24px;
+
+}
+
+.action i {
+ margin-right: 12px;
+ font-size: 24px;
+
+}
+
+.colunas{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 16px;
+}
+
+.colunas i{
+font-size: 32;
+display: flex;
+justify-content: space-between;
+margin-left: 45%;
+margin-top: 16px;
+margin-bottom: 8px;
+}
+
+.titulo{
     display: flex;
     justify-content: center;
+    margin-bottom: 24px;
     
-    
+}
+
+.texto{
+margin-top: 16px;
+margin-bottom: 16px;
+margin-right: 40px;
+width: 280;
+height: 48;
+background-color: #f7f9fb;
+
+
+}
+.inpt {
+
+    background-color: #f7f9fb;
+    margin-top: auto
+    border: none;
+    border-radius: 12px;
+
+}
+.input-container{
+    background-color: #f7f9fb;
+    width: 800px;
+    height: 50px;
+    background-color: #f7f9fb;
+    margin-top: 110px;
+    border: none;
+    border-radius: 12px;
+
 
 }
