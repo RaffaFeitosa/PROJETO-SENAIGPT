@@ -95,26 +95,57 @@
 
 // INTERMEDIARIO
 // Exercicio 1
-let numero1 = Number (prompt("insira um numero"))
-let numero2 = Number (prompt("insira um numero"))
-let operacao =prompt("insira a operação")
+// let numero1 = Number(prompt("insira um numero"))
+// let numero2 = Number(prompt("insira um numero"))
+// let operacao = prompt("insira a operação")
 
-    if (operacao == "+"){
-        alert(numero1 + numero2)
-    }else {
-        if (operacao == "-"){
-            alert(numero1 - numero2)
-        } else{
-            if (operacao == "*"){
-                alert(numero1 * numero2)
-            }else{
-                if (operacao == "/")
-                    alert(numero1 / numero2)
-            }
-        }
+// if (operacao == "+") {
+//     alert(numero1 + numero2)
+// } else {
+//     if (operacao == "-") {
+//         alert(numero1 - numero2)
+//     } else {
+//         if (operacao == "*") {
+//             alert(numero1 * numero2)
+//         } else {
+//             if (operacao == "/")
+//                 alert(numero1 / numero2)
+//         }
+//     }
+// }
+//Exercicio 2
+// let valorcompra = Number (prompt("Digite o valor da compra:"))
+// if (valorcompra > 100){
+//     let desconto = valorcompra * 0.10;
+//     let valorcomdesconto = valorcompra - desconto;
+//     alert(`O valor com desconto é: R$ ${valorcomdesconto.toFixed(2)}`);
+//     }else{
+//         alert(`O valor da compra é: R$ ${valorcompra.toFixed(2)}`)
+//     }
 
+//Exercicio 3
+// let numero1 = Number(prompt("Insita um numero"))
+// let numero2 = Number(prompt("Insita um numero"))
+// let numero3 = Number(prompt("Insita um numero"))
     
+//     if (numero1 > numero2 && numero1 > numero3){
+//         alert (numero1)
+//     }else{ 
+//         if (numero2 > numero1 && numero2 > numero3){
+//             alert (numero2)
+//         }else { 
+//             alert (numero3)
+//         }   
+//     }
+//  
 
-    }
+//Exercicio 4
 
-   
+// const user1 = prompt("Insira o nome de usuario")
+// const password1 = prompt("Insira sua senha")
+
+// if (user1 == "admin" && password1 == 1234) {
+//     alert("Login bem sucedido")
+// } else{
+//     alert("Negado")
+// }
