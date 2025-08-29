@@ -71,14 +71,58 @@
 
 //03
 
-debugger
+// debugger
 
-let numero2 = number (prompt("Insira um numero"))
-let contadora = 1
+// let numero = Number (prompt("Insira um numero"))
+// let i = 1
+// let soma = 0
 
-while (contadora <= numero2); {
+// while( i <= numero){
+//     soma = soma + i
+    
+//     i++
+// }
+// console.log(soma)
 
-    alert(contadora)
-    contadora++
+//Intermediario - numero pares
 
-}
+//for (let contadora = 2; contadora <= 50; contadora+=2){
+//    
+//    console.log(contadora)
+//}
+
+//Intermediario - numero pares
+
+// debugger
+
+// let numero = Number (prompt("INSIRA UM NUMERO"))
+// let contadora = 0;
+
+
+// while (numero >= contadora) {
+//     console.log(numero)
+//     numero = numero - 1
+
+// }
+
+//Intermediario - Jogo da Adivinhacao
+// Geração do número aleatório
+// const numeroSecreto = Math.floor(Math.random() * 100) + 1;
+
+// let palpite = 0;
+
+// // Loop para adivinhação
+// while (palpite !== numeroSecreto) {
+//     palpite = parseInt(prompt("Adivinhe o número entre 1 e 100:"));
+
+//     if (isNaN(palpite)) {
+//         alert("Por favor, insira um número válido.");
+//     } else if (palpite < numeroSecreto) {
+//         alert("O número secreto é MAIOR.");
+//     } else if (palpite > numeroSecreto) {
+//         alert("O número secreto é MENOR.");
+//     }
+// }
+
+// // Mensagem de sucesso
+// alert(`Parabéns! O número secreto era ${numeroSecreto}.`);
