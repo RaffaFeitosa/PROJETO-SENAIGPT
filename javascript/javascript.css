@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+
+button {
+
+    margin-bottom: 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 10000px;
+    padding: 0px 10px;
+    font-size:1em;
+    cursor: pointer;
+    transition: all ease .2s;
+
+}
+
+button:hover{
+
+    background-color: red;
+    transform: scale(1.2)rotateZ(2deg)
+    
+
+}
+button:active {
+
+    background-color: white;
+    color: darkgreen;
+}

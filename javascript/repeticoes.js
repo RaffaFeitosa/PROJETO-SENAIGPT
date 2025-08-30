@@ -1,11 +1,38 @@
+function adicionarLog () {
+
+    let divlogs = document.querySelector(".logs");
+
+    let tagP = document.createElement("p");
+
+    tagP.innerHTML = "Exercício executado às " + new Date().toLocaleDateString();
+
+    divlogs.appendChild(tagP);
+
+}
+
+
+
+
+
+
+
+
 // console.log("FOR")
-// for (let contadora = 1; contadora <= 5; contadora++) {
 
-//     console.log(contadora);
+// function rep01() {
 
-// }
 
+//     for (let contadora = 1; contadora <= 5; contadora++) {
+
+//         console.log(contadora);      
+
+//     }
+//     alert("Função executada no Console");
+
+//____________________________________________________________________
 // console.log("WHILE")
+
+
 // let controladoraWhile = 1;
 // while (controladoraWhile <=5) {
 
@@ -14,7 +41,7 @@
 //     controladoraWhile++;
 
 // }
-
+///////////////////////////////////////////////////////////////
 // console.log("DO WHILE SIMPLES");
 
 // do {
@@ -50,44 +77,47 @@
 //01
 
 // debugger
+function rep01() {
+    console.log("FOR");
+    for (let contadora = 1; contadora <= 10; contadora++) {
 
-// console.log("FOR");
-// for (let contadora = 1; contadora <= 10; contadora++) {
-
-//   console.log(contadora)
-// }
-
+        console.log(contadora)
+    }
+    alert("Função executada no Console");
+}
 //02
 
 // debugger
+function rep02() {
+    let numero1 = prompt("Insita um numero");
 
-// let numero1 = prompt("Insita um numero");
+    for (let contadora = 1; contadora <= 10; contadora++) {
 
-// for (let contadora = 1; contadora <= 10; contadora++) {
-
-// console.log(contadora * numero1)
-// }
-
+        console.log(contadora * numero1)
+    }
+    alert("Função executada no Console");
+}
 
 //03
 
 // debugger
+function rep03() {
+    let numero = Number(prompt("Insira um numero"))
+    let i = 1
+    let soma = 0
 
-// let numero = Number (prompt("Insira um numero"))
-// let i = 1
-// let soma = 0
+    while (i <= numero) {
+        soma = soma + i
 
-// while( i <= numero){
-//     soma = soma + i
-    
-//     i++
-// }
-// console.log(soma)
-
+        i++
+    }
+    console.log(soma)
+    alert("Função executada no Console");
+}
 //Intermediario - numero pares
 
 //for (let contadora = 2; contadora <= 50; contadora+=2){
-//    
+//
 //    console.log(contadora)
 //}
 
@@ -126,3 +156,6 @@
 
 // // Mensagem de sucesso
 // alert(`Parabéns! O número secreto era ${numeroSecreto}.`);
+
+// NIVEL AVANÇADO
+
