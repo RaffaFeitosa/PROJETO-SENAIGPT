@@ -4,7 +4,7 @@ function adicionarLog () {
 
     let tagP = document.createElement("p");
 
-    tagP.innerHTML = "Exercício executado às " + new Date().toLocaleDateString();
+    tagP.innerHTML = "Exercício executado às " + new Date().toLocaleDateString() + " as " + new Date().toLocaleTimeString();
 
     divlogs.appendChild(tagP);
 
