@@ -84,6 +84,7 @@ function rep01() {
         console.log(contadora)
     }
     alert("Função executada no Console");
+    adicionarLog();
 }
 //02
 
@@ -96,6 +97,7 @@ function rep02() {
         console.log(contadora * numero1)
     }
     alert("Função executada no Console");
+    adicionarLog();
 }
 
 //03
@@ -113,6 +115,7 @@ function rep03() {
     }
     console.log(soma)
     alert("Função executada no Console");
+    adicionarLog();
 }
 //Intermediario - numero pares
 

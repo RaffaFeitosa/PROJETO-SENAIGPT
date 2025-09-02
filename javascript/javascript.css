@@ -12,6 +12,7 @@ button {
     font-size:1em;
     cursor: pointer;
     transition: all ease .2s;
+    width: 100px;
 
 }
 
@@ -26,4 +27,15 @@ button:active {
 
     background-color: white;
     color: darkgreen;
+}
+.bloco {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.tudo {
+    display: flex;
+
+
 }

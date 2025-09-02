@@ -34,7 +34,7 @@ if (numero > 0) {
     }
 
 }
-
+adicionarLog();
 }
 
 //Exercicio 3
@@ -51,7 +51,7 @@ else {
     alert("REPROVADO");
 
 }
-
+adicionarLog();
 }
 
 
@@ -74,7 +74,7 @@ if (numero > 0) {
 
     }
 }
-
+adicionarLog();
 
 }
 
@@ -95,7 +95,7 @@ if (idade > 0 && idade <= 12) {
     }else 
         alert("Adulto")
 }
-
+adicionarLog();
 }
 
 
@@ -111,7 +111,7 @@ let numero =prompt("Digite um numero");
 
         alert("O numero é impar")
     } 
-
+adicionarLog();
 
 }
 
@@ -137,7 +137,7 @@ if (operacao == "+") {
         }
     }
 }
-
+adicionarLog();
 }
 function exercicio08(){
 let valorcompra = Number (prompt("Digite o valor da compra:"))
@@ -165,6 +165,7 @@ let numero3 = Number(prompt("Insita um numero"))
             alert (numero3)
         }   
     }
+adicionarLog();
 }
 
 //Exercicio 4
@@ -177,5 +178,6 @@ if (user1 == "admin" && password1 == 1234) {
 } else{
     alert("Negado")
 }
+adicionarLog();
 }
 //Avançados
